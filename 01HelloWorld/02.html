@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="02.js">
+//        已经引入外部js的情况下，里面就不能写js代码了
+        alert("在引入外部文件script")
+    </script>
+</head>
+<body>
+<!--按钮中的js-->
+<button onclick="alert('我是按钮上的js');">点我一下</button>
+<!--超链接中的js-->
+<a href="javascript:alert('超链接上的js')"> 点我</a>
+<!--点击超链接不会跳转-->
+<a href="javascript:;">点我</a>
+</body>
+</html>
